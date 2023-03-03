@@ -10,8 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4937603118751508805}
   - component: {fileID: 1896083209085351989}
-  - component: {fileID: 8661245888301595867}
-  - component: {fileID: 8868940064648650663}
+  - component: {fileID: -8817547691059228750}
   m_Layer: 0
   m_Name: Dollar-Gold-Coin-PNG
   m_TagString: coin
@@ -86,17 +85,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &8661245888301595867
+--- !u!61 &-8817547691059228750
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4220978584934971297}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -112,15 +111,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 1.2333333}
   m_EdgeRadius: 0
---- !u!114 &8868940064648650663
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4220978584934971297}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e123019103fdb94b88b87eed46086a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

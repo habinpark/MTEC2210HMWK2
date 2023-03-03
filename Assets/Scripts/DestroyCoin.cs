@@ -8,7 +8,7 @@ public class DestroyCoin : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        CoinCollider = GetComponent<Collider2D>();
+
     }
 
     // Update is called once per frame
@@ -17,12 +17,14 @@ public class DestroyCoin : MonoBehaviour
         
     }
     // destroy self when player hits collider check by using "Player" tag
-    private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "coin")
         {
-            Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
+    
 }
 
